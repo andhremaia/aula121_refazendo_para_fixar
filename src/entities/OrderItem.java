@@ -47,6 +47,7 @@ public class OrderItem {
 	
 	@Override
 	public String toString() {
+		
 		StringBuilder sb = new StringBuilder();
 		sb.append("Product name: ");
 		sb.append(getProduct().getName() + "\n");		
@@ -54,6 +55,5 @@ public class OrderItem {
 		sb.append(quantity);
 		
 		return sb.toString();
-		
 	}
 }
