@@ -53,6 +53,8 @@ public class OrderItem {
 		sb.append(getProduct().getName() + "\n");		
 		sb.append("$" + price + "\n");
 		sb.append(quantity);
+		sb.append("Subtotal: ");
+		sb.append(String.format("%.2f", subTotal()));
 		
 		return sb.toString();
 	}
