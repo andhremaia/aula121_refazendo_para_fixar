@@ -12,7 +12,7 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		//commit ok		
+				
 		Client client = new Client();	
 		
 		System.out.println("Enter cliente data: \n");
